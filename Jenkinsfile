@@ -15,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Exécuter le script Python
-                withEnv(["PATH+EXTRA=C:/Users/ymansour/AppData/Local/Programs/Python/Python312/python.exe"]) {
+                withEnv(["PATH+EXTRA=C:/Users/ymansour/AppData/Local/Programs/Python/Python312/python.exej"]) {
                     script {
                         if (isUnix()) {
                             sh 'python Hello.py'
