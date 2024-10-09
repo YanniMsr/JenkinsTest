@@ -4,7 +4,7 @@ pipeline{
   stages{
     stage('Build'){
         steps{
-            echo 'Tet1dqsddskkkfs3'
+            echo 'Tet1dqsddskdddkkfs3'
         }
     }
   }
